@@ -16,9 +16,10 @@ public:
 	void Input();
 	int* GetterP()const;
 	int GetterS()const;
+	void Console()const;
 
 	void ReSize(int size);
-	int LookFor(int a);
+	int LookFor(int look);
 	void Sorting();
 	void Refactor();
 };
